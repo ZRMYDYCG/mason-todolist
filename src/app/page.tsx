@@ -23,6 +23,7 @@ import {
 import { CSS } from "@dnd-kit/utilities"
 import { motion, AnimatePresence } from "framer-motion"
 import { GitHub, Trash2, CheckCircle, Circle, X, Download, Upload, Check, ChevronRight, Plus } from "react-feather"
+import Image from "next/image"
 
 type TodoItem = {
   id: string
@@ -340,9 +341,11 @@ export default function Page() {
       <header className="bg-white shadow-sm relative z-[100]">
         <div className="max-w-3xl mx-auto px-4 py-4 flex justify-between items-center">
           <h1 className="text-2xl font-bold text-gray-800 flex items-center gap-2">
+            <Image src="/favicon.svg" width={32} height={32} alt="logo" />
             <span className="text-yellow-300">
               TodoKit
             </span>
+
           </h1>
           <a
             href="https://github.com/ZRMYDYCG/mason-todolist"

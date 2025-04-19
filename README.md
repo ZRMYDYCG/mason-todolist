@@ -1,6 +1,6 @@
 # TodoKit - 极简高效的待办事项管理应用
 
-![TodoKit 界面预览]()
+![image](https://github.com/user-attachments/assets/6f165e3c-8d33-4dce-a056-972825c31916)
 
 一款基于 Next.js 15 构建的现代化 Todo List 应用，集优雅设计、流畅交互和强大功能于一体。
 
